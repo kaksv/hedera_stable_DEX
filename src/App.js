@@ -47,7 +47,7 @@ function App() {
     <div className="App">
       <Header connect={connectWallet} 
       isConnected={isConnected} 
-      //address={address}
+      address={address}
        />
       <div className="mainWindow">
         <Routes>
